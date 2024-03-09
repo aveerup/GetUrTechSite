@@ -1,0 +1,39 @@
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ffffff;
+  }
+  
+  th {
+    background-color: #ffffff;
+  }
+  
+  td {
+    background-color: #201f1f;
+    text-emphasis-color: white;
+    color: white;
+  }
+  
+  
+  td.product1 {
+    background-color: #c4c2c2; 
+    font-weight: bold;
+    color: rgb(14, 13, 13);
+  }
+  
+  
+  td.product2 {
+    background-color: #c4c2c2; 
+    font-weight: bold;
+    color: rgb(14, 13, 13);
+  }
+  .attr{
+    font-size: 18px;
+  }

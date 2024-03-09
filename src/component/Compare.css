@@ -1,0 +1,110 @@
+
+.compare-icon {
+    position: fixed;
+    bottom: 70px;
+    right: 5px;
+    background-color: #05305e;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 24px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .close-button1 {
+    position: absolute;
+    cursor: pointer;
+    background-color: #ff0000; /* Red background color */
+    color: #ffffff; /* White text color */
+    width: 25px;
+    height: 25px;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 310px;
+    font-size: 15px; /* Adjust the font size as needed */
+    transition: background-color 0.3s ease-in-out; /* Add a smooth color transition */
+  }
+  
+  .compare-panel {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    top: 140px;
+    right: 30px;
+    width: 350px;
+    height: 500px;
+    background-color: #ffffff;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.2);
+    transition: right 0.3s ease-in-out;
+    z-index: 1000;
+  }
+  
+  .compare-panel h2 {
+    width: 100%;
+    height: 50px;
+    background-color: #080808;
+    color: white;
+    padding-left: 40px;
+  }
+  
+
+  
+  .buttons{
+    position: absolute;
+    display: flex;
+    bottom: 20px; 
+    left: 3px;
+    right: 3px;
+    gap: 5px;
+  }
+  .compare-panel button {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #a8deb0;
+    color: #080808;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+
+.count1 {
+    position: absolute;
+    top: -10px;
+    right: -4px;
+    background-color: red;
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 3px 6px;
+    font-size: 12px;
+  }
+
+  .compare-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .compare-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .selected {
+    flex: 1;
+  }
+  
+  .name {
+    font-weight: bold;
+    margin: 0;
+  }
